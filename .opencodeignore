@@ -1,0 +1,33 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime output
+*.log
+logs/
+reports/
+backtest_results/
+
+# Large local archives or data files
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.csv
+*.parquet
+*.feather
+*.h5
+*.pkl
